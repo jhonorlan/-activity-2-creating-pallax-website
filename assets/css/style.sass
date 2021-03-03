@@ -13,6 +13,9 @@ body
     position: fixed
     left: 40%
     z-index: 999
+    animation-name: smooth-mov
+    animation-duration: 10s
+    animation-iteration-count: infinite
 
 section
     height: 100vh
@@ -85,3 +88,15 @@ section
             text-align: center
             p
                 color: #050505
+
+@keyframes smooth-mov
+    0%
+        transform: rotate(0deg)
+    25%
+        transform: rotate(5deg)
+    50
+        transform: rotate(-5deg)
+    75%
+        transform: rotate(5deg)
+    100%
+        transform: rotate(0deg)
