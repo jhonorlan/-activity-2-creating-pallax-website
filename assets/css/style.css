@@ -1,186 +1,195 @@
 * {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
 .hot-air-balloon {
-  width: 300px;
-  cursor: pointer;
-  -webkit-user-drag: none;
-  position: fixed;
-  left: 40%;
-  z-index: 999;
-  -webkit-animation-name: smooth-mov;
-          animation-name: smooth-mov;
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+    width: 300px;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    position: fixed;
+    left: 40%;
+    z-index: 999;
+    -webkit-animation-name: smooth-mov;
+    animation-name: smooth-mov;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
 }
 
 section {
-  height: 100vh;
+    height: 100vh;
 }
 
 section.layer {
-  position: relative;
+    position: relative;
 }
 
 section.layer.layer-0 {
-  background: #0d4397;
-  background: -webkit-gradient(linear, left top, left bottom, from(#0d4397), color-stop(48%, #2e6fbe), color-stop(73%, #65a5d7), to(#b3d3eb));
-  background: linear-gradient(180deg, #0d4397 0%, #2e6fbe 48%, #65a5d7 73%, #b3d3eb 100%);
+    background: #0d4397;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0d4397), color-stop(48%, #2e6fbe), color-stop(73%, #65a5d7), to(#b3d3eb));
+    background: linear-gradient(180deg, #0d4397 0%, #2e6fbe 48%, #65a5d7 73%, #b3d3eb 100%);
 }
 
 section.layer.layer-1 {
-  background: #b3d3eb;
-  background: -webkit-gradient(linear, left top, left bottom, from(#b3d3eb), color-stop(48%, #65a5d7), color-stop(85%, #c3b3a4), to(#aed0e9));
-  background: linear-gradient(180deg, #b3d3eb 0%, #65a5d7 48%, #c3b3a4 85%, #aed0e9 100%);
+    background: #b3d3eb;
+    background: -webkit-gradient(linear, left top, left bottom, from(#b3d3eb), color-stop(48%, #65a5d7), color-stop(85%, #c3b3a4), to(#aed0e9));
+    background: linear-gradient(180deg, #b3d3eb 0%, #65a5d7 48%, #c3b3a4 85%, #aed0e9 100%);
 }
 
 section.layer.layer-2 {
-  background: #aed0e9;
-  background: -webkit-gradient(linear, left top, left bottom, from(#aed0e9), color-stop(48%, #f7b849), color-stop(82%, white), to(#8BDAF8));
-  background: linear-gradient(180deg, #aed0e9 0%, #f7b849 48%, white 82%, #8BDAF8 100%);
+    background: #aed0e9;
+    background: -webkit-gradient(linear, left top, left bottom, from(#aed0e9), color-stop(48%, #f7b849), color-stop(82%, white), to(#8BDAF8));
+    background: linear-gradient(180deg, #aed0e9 0%, #f7b849 48%, white 82%, #8BDAF8 100%);
 }
 
 section.layer.layer-4 {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 section.layer.layer-4 .background {
-  margin-top: -180px;
+    margin-top: -180px;
 }
 
 .cloud {
-  width: 200px;
-  position: absolute;
+    width: 200px;
+    position: absolute;
 }
 
 .cloud.cloud-1 {
-  top: 10%;
-  left: 10%;
+    top: 10%;
+    left: 10%;
 }
 
 .cloud.cloud-2 {
-  top: 30%;
-  right: 10%;
+    top: 30%;
+    right: 10%;
 }
 
 .cloud.cloud-3 {
-  top: 70%;
-  left: 20%;
+    top: 70%;
+    left: 20%;
 }
 
 .background {
-  width: 100%;
+    width: 100%;
 }
 
 .text-container {
-  position: absolute;
-  padding: 10px;
-  max-width: 550px;
+    position: absolute;
+    padding: 10px;
+    max-width: 550px;
 }
 
 .text-container .header span {
-  font-size: 38px;
-  color: #fff;
+    font-size: 38px;
+    color: #fff;
 }
 
 .text-container .body p {
-  color: #fff;
-  font-size: 24px;
-  margin: 10px 0px;
+    color: #fff;
+    font-size: 24px;
+    margin: 10px 0px;
 }
 
 .text-container.one {
-  top: 60%;
-  left: 8%;
+    top: 60%;
+    left: 8%;
 }
 
 .text-container.two {
-  top: 70%;
-  right: 1%;
+    top: 70%;
+    right: 1%;
 }
 
 .text-container.three {
-  top: 25%;
-  left: 10%;
+    top: 25%;
+    left: 10%;
 }
 
 .text-container.four {
-  top: 10%;
-  left: 30%;
+    top: 10%;
+    left: 30%;
 }
 
 .text-container.four .header {
-  text-align: center;
+    text-align: center;
 }
 
 .text-container.four .header span {
-  color: #144DA0;
-  font-weight: 800;
-  font-size: 42px;
+    color: #144DA0;
+    font-weight: 800;
+    font-size: 42px;
 }
 
 .text-container.four .body {
-  text-align: center;
+    text-align: center;
 }
 
 .text-container.four .body p {
-  color: #050505;
+    color: #050505;
 }
 
 @-webkit-keyframes smooth-mov {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  25% {
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
-  }
-  50 {
-    -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg);
-  }
-  75% {
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
-  }
-  100% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    25% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+
+    50 {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+
+    75% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
 }
 
 @keyframes smooth-mov {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  25% {
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
-  }
-  50 {
-    -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg);
-  }
-  75% {
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
-  }
-  100% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    25% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+
+    50 {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+
+    75% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
 }
+
 /*# sourceMappingURL=style.css.map */
