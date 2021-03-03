@@ -1,4 +1,5 @@
 const BALLOON = document.querySelector(".hot-air-balloon");
+let LAYER = 0;
 
 function animate() {
 	const SCROLLHEIGHT = document.documentElement.scrollHeight;
